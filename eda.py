@@ -22,7 +22,7 @@ print(df.info())
 print("\nSummary statistics:")
 print(df.describe(include='all'))
 
-# Check for missing values
+# Check for missing values per column
 print("\nMissing values per column:")
 print(df.isnull().sum())
 
